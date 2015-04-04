@@ -130,6 +130,25 @@ Scroll down to the `providers` array, and add the following line to the array
 *   league/booboo
 
 
+## Pull Requests
+
+** WELCOME **
+
+Definitely welcome :)
+I make no secret of my inability to be a good developer.
+Please make sure that Pull Requests have a working test file.
+
+Additionally, I'm more interested in bug fixes and improved functionality that I am about the latest PHP way of doing things (unless there's a great reason).
+
+
+## Documentation
+Check out the documentation here.
+There will be a documentation folder coming soon.
+
+## Security
+If you have identified a security issue, please email **l5bootcamp@keivnjohngallagher.com** directly.
+**Do not file an issue as they are public!**
+
 
 ## Copyright and License
 L5BootCamp was written by Kevinjohn Gallagher of Pure Web Brilliant for the Laravel 5 framework.
