@@ -7,10 +7,15 @@ BaseCamp.com style framework for Laravel 5
 
 ```
 BIG DISCLAIMER:
-THIS IS MY FIRST LARAVEL PROJECT, THE FIRST WEBSITE I'VE BUILT IN 8 YEARS, AND I'M A CRAP DEVELOPER
+THIS IS MY FIRST LARAVEL PROJECT, THE FIRST WEBSITE I'VE BUILT IN 8 YEARS...
+AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 ```
 
-This is a 'platform' for creating Basecamp style websites and apps. It sits on top of Laravel 5, and controls the creation of organisations, users, and their conenctions. It does not give any of the actual Basecamp.com tool functionality, but allows for plugins/packages for tools to be created to sit on top of the platform.
+This is a 'platform' for creating Basecamp style websites and apps.
+It sits on top of Laravel 5, and controls the creation of organisations, users, and their conenctions.
+It does not give any of the actual Basecamp.com tool functionality, but allows for plugins/packages for tools to be created to sit on top of the platform.
+For all intents and purposes, this handles user registration, invitations, assigning of roles.
+
 
 ##### Organisation types: 	
 * Company
@@ -20,9 +25,37 @@ This is a 'platform' for creating Basecamp style websites and apps. It sits on t
 
 ##### User Type:
 * Team member
-* Client
+* Consumer
 * Supplier
 * Freelancer
+
+Each user can only be assigned to 1 company, but being assigned to a company is not a pre-requisite.
+###### Company:
+Where billing and account administration is handled.
+Most users will never see this Organisation type.
+Currently only Users who are 'Team Members' and are on the same email domain, can see this Organisation type.
+
+###### Agency:
+A Company can have lots of Agency children, but an Agency can only belong to 1 Company. (Company 1:n Agency)
+Users who are 'Team Members' and are on the same email domain, can see this Organisation type.
+
+###### Client:
+An Agency can have lots of Client children, but an Client can only belong to 1 Agency. (Agency 1:n Client)
+Clients are by default shown show as 'disabled' for 'Team Members' who are assigned to the parent Agency.
+They are not visible to any other 'Team Members'.
+A 'Consumer' can only see the Agency (disabled) parent for the Client they are assigned to, and cannot see any other Clients of that Agency.
+A 'Consumer' can see all Projects (disabled) for the Client they are assigned to.
+
+###### Project:
+A Client can have lots of Project children, but a Project can only belong to 1 Client. (Client 1:n Project)
+Projects are by default shown show as 'disabled' for 'Team Members' & 'Consumers' who are assigned to the parent Client.
+They are not visible to any other 'Team Members'.
+A 'Supplier' or 'Freelancer' can only see the Agency (read-only) and Client (disabled) parents for the Project they are assigned to.
+
+
+
+
+
 
 
 ## Installation
