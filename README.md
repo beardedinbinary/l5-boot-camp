@@ -1,5 +1,9 @@
 # kevinjohn/l5-boot-camp
-BaseCamp style framework for Laravel 5
+BaseCamp.com style framework for Laravel 5
+
+- **Author:** Kevinjohn Gallagher
+- **Website:** [https://github.com/Kevinjohn/L5BootCamp](https://github.com/Kevinjohn/L5BootCamp)
+- **Version:** 0.0.1
 
 ```
 BIG DISCLAIMER:
@@ -21,8 +25,42 @@ This is a 'platform' for creating Basecamp style websites and apps. It sits on t
 * Freelancer
 
 
-## Installation via composer
+## Installation
+
+### Step 1: use Composer
+
+To install **L5BootCamp** as a Composer package to be used with Laravel 5, simply add this to your composer.json:
+
+```json
+    "kevinjohn/l5bootcamp": "~0"
+```
+Then run ``` composer update ``` in your command line.
+
+Alternatively type the following into your command line and let composer do all the work:
+
+```json
+    composer require kevinjohn/l5bootcamp
+```
+
+### Step 2: Add laravel 5 Service Providers
+
+Open `config/app/php` in your laravel project folder.
+Scroll down to the `providers` array, and add the following line to the array
+
+```php
+
+	'Kevinjohn\L5BootCamp\L5BootCampServiceProvider',
+```
 
 
-#### Dependencies
+## Dependencies
 
+*   PHP 5.6
+*   Laravel 5
+*   Illuminate/Html
+
+
+##### require - dev
+
+*   phpunit/phpunit     4
+*   phpspec/phpspec     2
