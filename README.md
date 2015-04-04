@@ -38,7 +38,7 @@ Then run ``` composer update ``` in your command line.
 
 Alternatively type the following into your command line and let composer do all the work:
 
-```json
+```php
     composer require kevinjohn/l5bootcamp
 ```
 
@@ -48,12 +48,13 @@ Open `config/app/php` in your laravel project folder.
 Scroll down to the `providers` array, and add the following line to the array
 
 ```php
-
 	'Kevinjohn\L5BootCamp\L5BootCampServiceProvider',
 ```
 
 
 ## Dependencies
+
+##### require - dev
 
 *   PHP 5.6
 *   Laravel 5
@@ -64,3 +65,32 @@ Scroll down to the `providers` array, and add the following line to the array
 
 *   phpunit/phpunit     4
 *   phpspec/phpspec     2
+*   behat/behat         3
+*   squizlabs/php_codesniffer 2
+*   barryvdh/laravel-debugbar   2
+*   maximebf/debugbar   1
+
+
+#### suggested
+
+(These may move to required at some stage)
+
+*   gherkins/regexpbuilderphp
+*   intouch/newrelic
+*   intouch/laravel-newrelic
+*   laracasts/generators
+*   league/booboo
+
+
+
+## Copyright and License
+L5BootCamp was written by Kevinjohn Gallagher of Pure Web Brilliant for the Laravel 5 framework.
+L5BootCamp is provisionally released under the MIT License.
+See the LICENSE file for details.
+
+
+## Recent Changelog
+
+### 0.0.1
+* Laravel 5 Skeleton Package created.
+
