@@ -1,4 +1,4 @@
-# kevinjohn/l5-boot-camp
+# Kevinjohn/L5BootCamp
 BaseCamp.com style framework for Laravel 5
 
 - **Author:** Kevinjohn Gallagher
