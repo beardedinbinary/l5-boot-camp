@@ -11,6 +11,8 @@ THIS IS MY FIRST LARAVEL PROJECT, THE FIRST WEBSITE I'VE BUILT IN 8 YEARS...
 AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 ```
 
+## Purpose
+
 This is a 'platform' for creating Basecamp style websites and apps.
 It sits on top of Laravel 5, and controls the creation of organisations, users, and their conenctions.
 It does not give any of the actual Basecamp.com tool functionality, but allows for plugins/packages for tools to be created to sit on top of the platform.
@@ -56,7 +58,7 @@ Each user can only be assigned to 1 company, but being assigned to a company is 
 * A 'Supplier' or 'Freelancer' can only see the Agency (read-only) and Client (disabled) parents for the Project they are assigned to.
 
 
-### Why?
+## Why?
 
 Initially I made this very fluid.
 There was no set organisation type (just N-to-N organisations), and users could be added to Organisations via any hierarchy. On initial testing though this 'felt' wrong. Yes, it was far more flexible, and the data was simply kept in 3 tables - not caring about the name or hierarchy of any given organisation, but again it lost something.
