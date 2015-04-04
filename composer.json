@@ -1,0 +1,25 @@
+{
+    "name": "kevinjohn/l5-boot-camp",
+    "description": "",
+    "authors": [
+        {
+            "name": "Kevinjohn Gallagher",
+            "email": "l5-boot-camp@kevinjohngallagher.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpspec/phpspec": "~2.1",
+        "illuminate/workbench": "dev-master"
+     },
+    "autoload": {
+        "psr-0": {
+            "Kevinjohn\\L5BootCamp": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
