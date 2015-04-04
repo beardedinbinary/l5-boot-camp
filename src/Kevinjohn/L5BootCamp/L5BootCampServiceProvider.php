@@ -18,9 +18,16 @@ class L5BootCampServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		//  You never know...
+        if (method_exists($this, 'publishes')) {
+            throw new \Exception(
+                "'Laravel 5 BootCamp' This Service Provider doesn't support Laravel 4."
+            );
+        }
+
         $this->package('Kevinjohn/l5BootCamp');
-	}
+
+    }
 
 
     /**
@@ -63,6 +70,9 @@ class L5BootCampServiceProvider extends ServiceProvider {
         $this->publishes([
             __DIR__.'/resources/assets' => public_path('vendor/L5BootCamp/assets'),
         ], 'assets');
+
+
+        $this->registerDummy();
     }
 
 
@@ -75,5 +85,20 @@ class L5BootCampServiceProvider extends ServiceProvider {
 	{
 		return [];
 	}
+
+
+
+    /**
+     * Registers the DUMMY class in the IoC
+     */
+    private function registerDummy()
+    {
+        $this->app->bind(
+            'L5BootCamp::Dummy',
+            function () {
+                return new Dummy();
+            }
+        );
+    }
 
 }
