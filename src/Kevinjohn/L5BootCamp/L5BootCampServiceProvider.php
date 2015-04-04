@@ -19,6 +19,7 @@ class L5BootCampServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		//
+        $this->package('Kevinjohn/l5BootCamp');
 	}
 
 
