@@ -1,9 +1,9 @@
 {
     "name": "kevinjohn/l5-boot-camp",
-    "description": "A Laravel 5 platform, for creating Basecamp style websites and apps.",
+    "description": "A Laravel 5 platform, for creating Basecamp.com style applications.",
     "version": "0.0.1",
     "type": "platform",
-    "keywords": ["platform", "framework", "basecamp", "users", "organisations"],
+    "keywords": ["platform", "framework", "basecamp"],
     "homepage": "https://github.com/Kevinjohn/L5-boot-camp",
     "time": "2015-04-01",
     "license": "MIT",
@@ -23,7 +23,8 @@
     "require": {
         "php": ">=5.5.0",
         "illuminate/support": "5.0.*",
-        "illuminate/html": "dev-master"
+        "illuminate/html": "dev-master",
+        "nesbot/carbon" : "~1"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -35,13 +36,18 @@
         "pragmarx/laravelcs" : "dev-master"
      },
     "suggest": {
-      "monolog/monolog": "Allows more advanced logging of the application flow",
+      "monolog/monolog": "Advanced logging of the application flow",
       "gherkins/regexpbuilderphp": "Amazing Regex builder in English",
       "intouch/newrelic": "Why wouldn't you?",
       "intouch/laravel-newrelic": "Why wouldn't you?",
       "laracasts/generators": "I like these not being in Core, but they are useful.",
-      "league/booboo": "Wonderful non-interupting error handling.",
-      "raveren/kint/" : "Incredible debug framework!"
+      "league/booboo": "Wonderful  error handling.",
+      "raveren/kint/" : "Incredible debug framework!",
+      "GrahamCampbell/Laravel-Markdown" : "Laravel 5 mardown",
+      "Zizaco/entrust" : "Roles and responsibilities plugin",
+      "CodeSleeve/laravel-stapler" : "Laravel 5 uploader",
+      "barryvdh/laravel-dompdf" : "PDF generation",
+      "sebastian/phpcpd" : "PHP Copy paste detector"
     },
     "autoload": {
         "psr-4": {

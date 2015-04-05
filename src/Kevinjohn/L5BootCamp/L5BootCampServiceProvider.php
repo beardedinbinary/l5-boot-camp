@@ -11,9 +11,12 @@ class L5BootCampServiceProvider extends ServiceProvider {
 	 */
 	protected $defer = false;
 
+
+
 	/**
 	 * Register the service provider.
 	 *
+     * @method string package()
 	 * @return void
 	 */
 	public function register()
