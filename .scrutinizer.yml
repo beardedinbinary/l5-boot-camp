@@ -23,9 +23,9 @@ checks:
         parameters_in_camelcaps: true
         parameter_doc_comments: true
         no_short_variable_names:
-            minimum: '6'
+            minimum: '4'
         no_short_method_names:
-            minimum: '10'
+            minimum: '4'
         no_goto: true
         newline_at_end_of_file: true
         line_length:

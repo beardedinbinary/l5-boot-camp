@@ -24,6 +24,14 @@ AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 
 ```php v0.0.1 - unstable ```
 
+## Version Compatibility
+
+Laravel  | L5BootCamp
+:--------|:---------
+ 4.x     | not supported
+ 5.0.x   | 0.0.x
+ 5.1.x   | unknown
+
 ## Purpose
 
 This is a 'platform' for creating Basecamp style websites and apps.
