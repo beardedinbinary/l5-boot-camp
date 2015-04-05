@@ -3,7 +3,7 @@
     "description": "A Laravel 5 platform, for creating Basecamp style websites and apps.",
     "version": "0.0.1",
     "type": "platform",
-    "keywords": ["logging", "cool", "awesome"],
+    "keywords": ["platform", "framework", "basecamp", "users", "organisations"],
     "homepage": "https://github.com/Kevinjohn/L5-boot-camp",
     "time": "2015-04-01",
     "license": "MIT",
@@ -28,7 +28,10 @@
     "require-dev": {
         "phpunit/phpunit": "~4.0",
         "phpspec/phpspec": "~2.1",
-        "illuminate/workbench": "dev-master"
+        "illuminate/workbench": "dev-master",
+        "behat/behat " : "~3",
+        "squizlabs/php_codesniffer" : "~2",
+        "barryvdh/laravel-debugbar" : "~2"
      },
     "suggest": {
       "monolog/monolog": "Allows more advanced logging of the application flow",
