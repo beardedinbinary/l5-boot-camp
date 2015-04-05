@@ -36,7 +36,7 @@
       "intouch/newrelic": "Why wouldn't you?",
       "intouch/laravel-newrelic": "Why wouldn't you?",
       "laracasts/generators": "I like these not being in Core, but they are useful.",
-      "league/booboo": "Wonderful non-interupting error handling.",
+      "league/booboo": "Wonderful non-interupting error handling."
     },
     "autoload": {
         "psr-4": {
