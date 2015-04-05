@@ -31,7 +31,8 @@
         "illuminate/workbench": "dev-master",
         "behat/behat" : "~3",
         "squizlabs/php_codesniffer" : "~2",
-        "barryvdh/laravel-debugbar" : "~2"
+        "barryvdh/laravel-debugbar" : "~2",
+        "pragmarx/laravelcs" : "dev-master"
      },
     "suggest": {
       "monolog/monolog": "Allows more advanced logging of the application flow",
