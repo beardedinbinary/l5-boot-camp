@@ -12,9 +12,11 @@ AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 ```
 
 [![Build Status](https://travis-ci.org/Kevinjohn/l5-boot-camp.svg?branch=master)](https://travis-ci.org/Kevinjohn/l5-boot-camp.svg?branch=master)
+
 [![Latest Stable Version](https://poser.pugx.org/kevinjohn/l5-boot-camp/v/stable.svg)](https://packagist.org/packages/kevinjohn/l5-boot-camp) 
 [![Latest Unstable Version](https://poser.pugx.org/kevinjohn/l5-boot-camp/v/unstable.svg)](https://packagist.org/packages/kevinjohn/l5-boot-camp) 
 [![License](https://poser.pugx.org/kevinjohn/l5-boot-camp/license.svg)](https://packagist.org/packages/kevinjohn/l5-boot-camp)
+
 
 ## Versions:
 
