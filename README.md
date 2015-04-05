@@ -17,6 +17,8 @@ AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 [![Latest Unstable Version](https://poser.pugx.org/kevinjohn/l5-boot-camp/v/unstable.svg)](https://packagist.org/packages/kevinjohn/l5-boot-camp) 
 [![License](https://poser.pugx.org/kevinjohn/l5-boot-camp/license.svg)](https://packagist.org/packages/kevinjohn/l5-boot-camp)
 
+[![Coverage Status](https://img.shields.io/coveralls/kevinjohn/l5-boot-camp/master.svg?style=flat)](https://coveralls.io/r/kevinjohn/l5-boot-camp?branch=master)
+[![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/kevinjohn/l5-boot-camp/master.svg?style=flat)](https://scrutinizer-ci.com/g/kevinjohn/l5-boot-camp/)
 
 ## Versions:
 
