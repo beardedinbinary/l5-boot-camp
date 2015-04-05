@@ -11,6 +11,9 @@ THIS IS MY FIRST LARAVEL PROJECT, THE FIRST WEBSITE I'VE BUILT IN 8 YEARS...
 AND I'M AN AWFUL DEVELOPER (it's why I stopped developing in 2005).
 ```
 
+[![Build Status](https://travis-ci.org/Kevinjohn/l5-boot-camp.svg?branch=master)](https://travis-ci.org/Kevinjohn/l5-boot-camp.svg?branch=master)
+
+
 ## Purpose
 
 This is a 'platform' for creating Basecamp style websites and apps.

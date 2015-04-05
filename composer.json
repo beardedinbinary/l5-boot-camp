@@ -1,6 +1,19 @@
 {
     "name": "kevinjohn/l5-boot-camp",
-    "description": "",
+    "description": "A Laravel 5 platform, for creating Basecamp style websites and apps.",
+    "version": "0.0.1",
+    "type": "platform",
+    "keywords": ["logging", "cool", "awesome"],
+    "homepage": "https://github.com/Kevinjohn/L5-boot-camp",
+    "time": "2015-04-01",
+    "license": "MIT",
+    "support": {
+      "email": "l5-boot-camp@kevinjohngallagher.com",
+      "issues": "https://github.com/Kevinjohn/L5-boot-camp/issues",
+      "forum": "https://github.com/Kevinjohn/L5-boot-camp/issues",
+      "wiki": "https://github.com/Kevinjohn/L5-boot-camp/issues",
+      "source": "http://github.com/Kevinjohn/L5-boot-camp"
+    },
     "authors": [
         {
             "name": "Kevinjohn Gallagher",
@@ -8,15 +21,27 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.0.*"
+        "php": ">=5.5.0",
+        "illuminate/support": "5.0.*",
+        "illuminate/html": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
         "phpspec/phpspec": "~2.1",
         "illuminate/workbench": "dev-master"
      },
+    "suggest": {
+      "monolog/monolog": "Allows more advanced logging of the application flow",
+      "gherkins/regexpbuilderphp": "Amazing Regex builder in English",
+      "intouch/newrelic": "Why wouldn't you?",
+      "intouch/laravel-newrelic": "Why wouldn't you?",
+      "laracasts/generators": "I like these not being in Core, but they are useful.",
+      "league/booboo": "Wonderful non-interupting error handling.",
+    },
     "autoload": {
+        "psr-4": {
+            "Kevinjohn\\L5BootCamp\\": "src/"
+        },
         "psr-0": {
             "Kevinjohn\\L5BootCamp": "src/"
         }
